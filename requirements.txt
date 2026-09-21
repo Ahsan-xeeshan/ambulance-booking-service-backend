@@ -13,3 +13,4 @@ pytest-asyncio
 httpx
 aiofiles
 jinja2
+uuid
