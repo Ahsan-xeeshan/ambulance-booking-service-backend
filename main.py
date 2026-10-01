@@ -7,10 +7,12 @@ import models
 from database import engine, SessionLocal
 from router import auth, admin,driver, dashboard,booking
 from router.auth import get_current_user
+from ai.main import router as ai_router
 
 
 app = FastAPI()
 
+app.include_router(ai_router)
 
 # =========================
 # CORS
