@@ -14,3 +14,5 @@ httpx
 aiofiles
 jinja2
 uuid
+python-dotenv
+openai
